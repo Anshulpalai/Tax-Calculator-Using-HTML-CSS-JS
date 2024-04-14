@@ -2,139 +2,143 @@
 
 /* Reset default browser styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-  }
-  
-  .container {
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  h1 {
-    text-align: center;
-    margin-bottom: 70px;
-  }
-  
-  .form-group {
-    margin-bottom: 20px;
-  }
-  
-  label {
-    display: block;
-    font-weight: bold;
-  }
-  
-  input[type="number"],
-  select {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  .error-icon {
-    display: none;
-    margin-left: 5px;
-    color: red;
-    cursor: help;
-  }
-  
-  button[type="submit"] {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: #4caf50;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  /* Modal */
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.4);
-  }
-  
-  .modal-content {
-    background-color: #fefefe;
-    margin: 15% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-    border-radius: 8px;
-  }
-  
-  .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-#btn{
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="number"],
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.error-icon {
+  display: none;
+  margin-left: 5px;
+  color: red;
+  cursor: help;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  border-radius: 8px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#btn {
   background-color: rgb(134, 130, 130);
   color: black;
   padding: 1rem;
   font-size: 1rem;
   font-weight: 800;
 }
-#btn:hover{
+
+#btn:hover {
   transition: box-shadow 0.5s linear;
   box-shadow: inset -21.5em 0 0 0 #4caf50, inset 21.5em 0 0 0 #4caf50;
   color: white;
 }
 
 
-.elementContainer{
+.elementContainer {
   position: relative;
   width: 300px;
   height: 30px;
 }
-  
 
-.hover-element1{
-  padding: 10px;
-  cursor: pointer;
-}
-.hover-element2{
-  padding: 10px;
-  cursor: pointer;
-}
-.hover-element3{
+
+.hover-element1 {
   padding: 10px;
   cursor: pointer;
 }
 
-.tooltip-ga{
+.hover-element2 {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.hover-element3 {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.tooltip-ga {
   position: absolute;
-  top: -70px; /* Adjust this value to position the tooltip */
+  top: -70px;
+  /* Adjust this value to position the tooltip */
   left: 48%;
   transform: translateX(-50%);
   background-color: rgba(0, 0, 0, 0.8);
@@ -145,9 +149,11 @@
   width: 100px;
   font-size: 0.7rem;
 }
-.tooltip-ei{
+
+.tooltip-ei {
   position: absolute;
-  top: -70px; /* Adjust this value to position the tooltip */
+  top: -70px;
+  /* Adjust this value to position the tooltip */
   left: 48%;
   transform: translateX(-50%);
   background-color: rgba(0, 0, 0, 0.8);
@@ -158,9 +164,11 @@
   width: 100px;
   font-size: 0.7rem;
 }
-.tooltip-de{
+
+.tooltip-de {
   position: absolute;
-  top: -70px; /* Adjust this value to position the tooltip */
+  top: -70px;
+  /* Adjust this value to position the tooltip */
   left: 48%;
   transform: translateX(-50%);
   background-color: rgba(0, 0, 0, 0.8);

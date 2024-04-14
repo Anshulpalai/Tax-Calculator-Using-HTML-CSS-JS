@@ -1,0 +1,8 @@
+@media screen and (max-width: 320px) {
+    label{
+        font-size: 0.8rem;
+    }
+    .elementContainer{
+        max-width: 175px;
+    }
+}
