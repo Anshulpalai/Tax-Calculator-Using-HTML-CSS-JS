@@ -1,6 +1,6 @@
 # Tax Calculator Web App
 
-This is a simple web application that calculates tax based on the provided gross annual income, extra income, deductions, and age. The tax calculation follows a specific formula provided in the requirements.
+This simple web application calculates tax based on the provided gross annual income, extra income, deductions, and age. The tax calculation follows a specific formula provided in the requirements.
 
 ## Features
 
@@ -28,4 +28,4 @@ This is a simple web application that calculates tax based on the provided gross
 Link: https://taxcalculator2k24.netlify.app/
 
 ## Contributing
-Contributions are welcome! Please open an issue or submit a pull request with your suggestions or improvements.
+Contributions are welcome! Please open an issue or submit a pull request with suggestions or improvements.
