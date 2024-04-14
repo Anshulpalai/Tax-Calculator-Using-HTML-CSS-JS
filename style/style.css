@@ -98,6 +98,19 @@
     cursor: pointer;
   }
 
+#btn{
+  background-color: rgb(134, 130, 130);
+  color: black;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 800;
+}
+#btn:hover{
+  transition: box-shadow 0.5s linear;
+  box-shadow: inset -21.5em 0 0 0 #4caf50, inset 21.5em 0 0 0 #4caf50;
+  color: white;
+}
+
 
 .elementContainer{
   position: relative;
